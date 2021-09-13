@@ -9,6 +9,7 @@ class Program:
     def run(self):
         self.print_hi()
         self.print_a_smiley_face()
+        self.whatsup_dude()
 
     def calculate(self):
         return pow(self.rnd_num, 2) * self.rnd_num
@@ -23,6 +24,10 @@ class Program:
         print("Now I will print a smiley face")
         print(":)")
         print("Also, here's the random number: " + str(self.rnd_num))
+
+    @staticmethod
+    def whatsup_dude():
+        print("Ayo, what's up dude")
 
 
 if __name__ == '__main__':
