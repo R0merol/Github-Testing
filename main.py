@@ -1,5 +1,6 @@
 import pygame, sys
 import random
+from window import Window
 
 
 class Program:
@@ -7,8 +8,10 @@ class Program:
         self.name = "Faris"
         self.rnd_num = random.randint(1, 100)
 
+        self.win = Window()
+
     def run(self):
-        pass
+        self.win.draw(screen)
 
     def calculate(self):
         return pow(self.rnd_num, 2) * self.rnd_num
