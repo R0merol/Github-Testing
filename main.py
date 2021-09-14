@@ -24,6 +24,10 @@ class Program:
         print(":)")
         print("Also, here's the random number: " + str(self.rnd_num))
 
+    @staticmethod
+    def whatsup_dude():
+        print("Ayo, what's up dude")
+
 
 if __name__ == '__main__':
 
